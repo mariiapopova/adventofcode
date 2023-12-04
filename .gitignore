@@ -1,4 +1,6 @@
 day1/*.txt
 Day 2/*.txt
 day3/*.txt
-
+day4/*.txt
+*/*.txt
+*.txt
