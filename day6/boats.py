@@ -17,6 +17,9 @@ if __name__ == "__main__":
     
     print (np.prod(list(map(get_num_comb, times,dists))))
     
+    time = int(''.join([str(num) for num in times]))
+    dist = int(''.join([str(num) for num in dists]))
     
+    print(get_num_comb(time,dist))
 
 
